@@ -1,7 +1,7 @@
 nota(pdp, vera, 9).
 nota(pdp, dauria, 8).
 nota(pdp, krasuk, 6).
-nota(pdp, goffredo, 7).
+nota(pdp, goffredo, 6).
 nota(pdp, bardelli, 9).
 nota(pdp, gimenez, 2).
 nota(pdp, benitez, 2).
