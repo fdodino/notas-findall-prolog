@@ -17,14 +17,14 @@ materia(sysop).
 materia(discreta).
 
 % Queremos saber cuántos rindieron PDP
-quienesRindieron(Materia, Cuantos):-
+cuantosRindieron(Materia, Cuantos):-
     % sin inversibilidad
     % materia(Materia),    
     findall(Persona, nota(Materia, Persona, _), Personas),
     length(Personas, Cuantos).
 
 % Cuántos aprobaron PDP
-quienesAprobaron(Materia, Cuantos):-
+cuantosAprobaron(Materia, Cuantos):-
     % sin inversibilidad
     % materia(Materia),    
     findall(Persona, (nota(Materia, Persona, Nota), Nota >= 6), Personas),
